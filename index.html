@@ -77,7 +77,8 @@
 	  padding:10rem 0 0;
 		}
 	  </style>
-  
+	  
+  <style>
   .slider img{
 	max-width: 100%;
   
@@ -128,6 +129,7 @@
 		right: 20px;
 	  }
 		</style>
+		
 </section>
 <!-- // GALLERY -->
 
@@ -208,5 +210,57 @@
 	Copyright(c) 2016 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
 </footer>
 
+<!-- custom script -->
+<script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider').slick({
+        autoplay: true,
+        dots: true,
+        prevArrow: '<button type="button" class="slick-buttons slick-prev"><span>Previous</span></button>',
+        nextArrow: '<button type="button" class="slick-buttons slick-next"><span>Next</span></button>',
+        customPaging: function(slick,index) {
+          return '<button><span>' + (index+1) + '</span></button>';
+        }
+      });
+    });
+  </script>
+  </script>
+
+  <style>
+    .slick-dots{
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      list-style: none;
+      text-align: center;
+      margin: 0;
+    }
+    .slick-dots li{
+      display: inline-block;
+    }
+    .slick-dots li button{
+      outline: none;
+      display: inline-block;
+      background-color: transparent;
+      border-width: 0;
+    }
+    .slick-dots li button span{
+      display: none;
+    }
+    .slick-dots li button:before{
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      content: '';
+      background-color: #d0a2c4;
+    }
+    .slick-dots li.slick-active button:before{
+      background-color: #000000;
+    }
+    
+    </style>
 </body>
 </html>
