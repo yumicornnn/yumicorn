@@ -1,5 +1,4 @@
 <!doctype html>
-<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="愛吃蕃茄的玉米">
@@ -8,6 +7,8 @@
 <link rel="stylesheet" media="all" href="css/style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 <script src="js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body id="top">
@@ -24,23 +25,65 @@
 					<li><a href="#sec04">夢</a></li>
 					<li><a href="#sec05">我</a></li>
 				</ul>
+				
 			</div>
 		</nav>
 	</div>
 </header>
 
 <div id="mainImg">
-	<img src="images/mainImg.jpg" alt="">
+	<img src="images/" width=100% alt="">
 </div>
 
 <!-- アギアト -->
 <section id="sec01">
 	<header>
 		<h2><span>アギアト♡</span></h2>
-	</header>
+		<div class="slider">
+			<img src="images/felicity.PNG">
+			<img src="images/felicity1.JPG">
+			<img src="images/felicity3.JPG">
+			<img src="images/5kam.PNG">
+			<img src="images/5kam1.JPG">
+			<img src="images/5kam2.JPG">
+			<img src="images/sirius.PNG">
+			<img src="images/Sirius1.JPG">
+			<img src="images/sirius1 (1).JPG">
+			<img src="images/six objects 2.PNG">
+			<img src="images/six1.JPG">
+			<img src="images/six2.JPG">
+			<img src="images/sunshine.PNG">
+			<img src="images/sunshine3.JPG">
+			<img src="images/Sun1.JPG">
+			<img src="images/grey.PNG">
+			<img src="images/grey1.JPG">
+			<img src="images/grey2.png">
+			<img src="images/randos.PNG">
+			<img src="images/randos1 (1).JPG">
+			<img src="images/randos2.JPG">
+		</div>
+
+	</header>      
 	<div class="innerS">
 		ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。上にいったようなことがらについては、曖昧あいまいな態度をとり、または真実でない知識を強いて注入していたことも、明かな事実である。
 	</div>
+</section>
+
+<style>
+.slider {
+padding:10rem 0 0;
+}
+</style>
+
+
+<style>
+.slider img{
+max-width: 100%;
+
+}
+</style>
+
+
 </section>
 <!-- // MESSAGE -->
 
@@ -49,87 +92,21 @@
 	<header>
 		<h2><span>Projects</span></h2>
 	</header>
-	
-	<div class="slider">
-		<div><img src="images/"></div>
-		<div><img src="images/slider/chair.jpg"></div>
-		<div><img src="images/slider/performer list.JPG"></div>
-		<div><img src="images/slider/sticker.jpg"></div>
-		<div><img src="images/slider/wood.jpg"></div>
-		<div><img src="images/slider/booth.JPG"></div>
-		<div><img src="images/slider/souven.JPG"></div>
-		</div>
+
 
 	<ul id="gallery">
-		<li><img src="images/photo01.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo02.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo03.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo04.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo05.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo06.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo07.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo08.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo09.jpg" width="426" height="418" alt=""></li>
+		<li><img src="images/man.JPG" width="426" height="418" alt=""></li>
+		<li><img src="images/man1.JPG" width="426" height="418" alt=""></li>
+		<li><img src="images/man2.JPG" width="426" height="418" alt=""></li>
+		<li><img src="images/man3.JPG" width="426" height="418" alt=""></li>
+		<li><img src="images/man4.JPG" width="426" height="418" alt=""></li>
+		<li><img src="images/man5.JPG" width="426" height="418" alt=""></li>
+		<li><img src="images/man6.JPG" width="426" height="418" alt=""></li>
+		<li><img src="images/man7.JPG" width="426" height="418" alt=""></li>
+		<li><img src="images/god and buddha.jpg" width="426" height="418" alt=""></li>
 	</ul>
 
-	<style>
-		.slider {
-	  padding:10rem 0 0;
-		}
-	  </style>
-	  
-  <style>
-  .slider img{
-	max-width: 100%;
-  
-  }
-		</style>
-  
-  
-		<style>
-		.slick-buttons{
-		background-color: transparent;
-		border-width: 0;
-	  }
-	  .slick-buttons{
-		position: absolute;
-		top: 50%;
-		transform: translate3d(0, -50%, 0);
-		z-index: 2;
-	  }
-	  .slick-buttons span{
-		display: none;
-	  }
-	  .slick-buttons.slick-prev:before,
-	  .slick-buttons.slick-next:before{
-		display: block;
-		width: 20px;
-		height: 20px;
-		border-color: #d0a2c4;
-		content: '';
-	  }
-	  .slick-buttons.slick-prev{
-		left: 20px;
-	  }
-	  .slick-buttons.slick-prev:before{
-		border-top-width: 8px;
-		border-left-width: 8px;
-		border-top-style: solid;
-		border-left-style: solid;
-		transform: rotate(-45deg);
-	  }
-	  .slick-buttons.slick-next:before{
-		border-bottom-width: 8px;
-		border-right-width: 8px;
-		border-bottom-style: solid;
-		border-right-style: solid;
-		transform: rotate(-45deg);
-	  }
-	  .slick-buttons.slick-next{
-		right: 20px;
-	  }
-		</style>
-		
+	
 </section>
 <!-- // GALLERY -->
 
@@ -139,8 +116,16 @@
 		<h2><span>Project</span></h2>
 	</header>
 	<div class="innerS">
-		<img src="images/imgProject.jpg" width="726" height="333" alt="">
+		<img src="images/wood.jpg" width="726" height="333" alt="">
 		<p>ちかごろ世間で日本歴史の今さらこと新しくいうには科学的研究ということがしきりに叫ばれているということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。科学的研究というのが近代史学の学問的方法によるちかごろ世間で日本歴史の科学的研究及ばないはずである。</p>
+	</div>
+	<div class="slider">
+		<img src="images/wood.jpg">
+		<img src="images/chair.JPG">
+		<img src="images/performer list.JPG">
+		<img src="images/stickerrr.jpeg">
+		<img src="images/wallet.jpeg">
+		<img src="images/water bottle.jpeg">
 	</div>
 </section>
 <!-- // PROJECT -->
@@ -148,6 +133,7 @@
 <img src="images/maksyut.PNG" width=100% height="333" alt="">
 <p>ちかごろ世間で日本歴史の今さらこと新しくいうには科学的研究ということがしきりに叫ばれているということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。科学的研究というのが近代史学の学問的方法によるちかごろ世間で日本歴史の科学的研究及ばないはずである。</p>
 </div>
+
 <!-- BRAND --> 
 <section id="sec04">
 	<header>
@@ -156,11 +142,11 @@
 	<div class="inner">
 		<ul class="col3">
 			<li>
-				<p class="img"><img src="images/logo01.png" width="170" height="106" alt=""></p>
+				<p class="img"><img src="images/agiato logo.JPG" width="400" height="106" alt=""></p>
 				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
 			</li>
 			<li>
-				<p class="img"><img src="images/logo02.png" width="170" height="106" alt=""></p>
+				<p class="img"><img src="images/Daybreak Eclipse logo.png" width="170" height="106" alt=""></p>
 				<p>日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば意義であるならば。</p>
 			</li>
 			<li>
@@ -189,16 +175,15 @@
 				<p>営業時間 10:00〜20:00（水曜定休）</p>
 				<p>※都合により休業する場合がございます</p>
 				<p id="sns">
-					<a href="#" target="_blank"><img src="images/iconFb.png" width="20" height="20" alt="FB"></a>
-					<a href="#" target="_blank"><img src="images/iconTw.png" width="20" height="20" alt="twitter"></a>
-					<a href="#" target="_blank"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a>
-					<a href="#" target="_blank"><img src="images/iconYouTube.png" width="20" height="20" alt="You Tube"></a>
+					<a href="https://www.facebook.com/HKPUSU.thePolyArts" target="_blank"><img src="images/iconFb.png" width="30" height="30" alt="FB"></a>
+					<a href="https://www.instagram.com/yumicornnn/" target="_blank"><img src="images/iconInsta.png" width="30" height="30" alt="Instagram"></a>
+					<a href="https://www.youtube.com/channel/UCHePyPVPRnl9cYlyiFt7wXw" target="_blank"><img src="images/iconYouTube.png" width="30" height="30" alt="You Tube"></a>
 				</p>
 			</li>
 			<li>
 				<div id="map">
 					<!-- GOOGLE MAP -->
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5937927089367!2d136.92980931491988!3d36.70829797996758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff781ec5af4ca3f%3A0x2ade3e8e4c2801b8!2z56aP5bKh6aeF!5e0!3m2!1sja!2sus!4v1478313402186" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.297830123984!2d114.17713831575013!3d22.304573285321286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e880ac323d%3A0x365d342cd8e7b3d8!2z57SF56Oh54Gj6aaZ5riv55CG5bel5aSn5a246YK16YC45aSr5qiT!5e0!3m2!1szh-TW!2shk!4v1575650377201!5m2!1szh-TW!2shk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					<!-- // GOOGLE MAP -->
 				</div>
 			</li>
@@ -212,55 +197,31 @@
 </footer>
 
 <!-- custom script -->
+<script src="js/grayscale.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick({
-        autoplay: true,
-        dots: true,
-        prevArrow: '<button type="button" class="slick-buttons slick-prev"><span>Previous</span></button>',
-        nextArrow: '<button type="button" class="slick-buttons slick-next"><span>Next</span></button>',
-        customPaging: function(slick,index) {
-          return '<button><span>' + (index+1) + '</span></button>';
-        }
-      });
-    });
-  </script>
+<script type="text/javascript">
+  $(document).ready(function(){
+	$('.slider').slick({
+	  autoplay: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplaySpeed: 2000,
+	  dots: false,
+	  prevArrow: false,
+	  nextArrow: false,
+	  customPaging: function(slick,index) {
+		return '<button><span>' + (index+1) + '</span></button>';
+	  }
+	});
+  });
+</script>
 
-  <style>
-    .slick-dots{
-      position: absolute;
-      bottom: 20px;
-      left: 0;
-      width: 100%;
-      list-style: none;
-      text-align: center;
-      margin: 0;
-    }
-    .slick-dots li{
-      display: inline-block;
-    }
-    .slick-dots li button{
-      outline: none;
-      display: inline-block;
-      background-color: transparent;
-      border-width: 0;
-    }
-    .slick-dots li button span{
-      display: none;
-    }
-    .slick-dots li button:before{
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      border-radius: 5px;
-      content: '';
-      background-color: #d0a2c4;
-    }
-    .slick-dots li.slick-active button:before{
-      background-color: #000000;
-    }
-    
-    </style>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+  
 </body>
 </html>
