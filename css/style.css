@@ -85,7 +85,7 @@ img{
 
 section{
 	clear:both;
-	padding-top: 70px;
+	padding-top: 40px;
 }
 
 section h2{
@@ -214,8 +214,6 @@ section h2 span {
 	height: 100% !important;
 	border: 0;
 }
-
-
 
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
@@ -454,3 +452,5 @@ section h2 span {
 		padding: 0 30px;
 	}
 }
+
+/*VDO*/
